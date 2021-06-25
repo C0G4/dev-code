@@ -1,0 +1,43 @@
+using System;
+using System.Globalization;
+
+class MainClass {
+  public static void Main (string[] args) 
+	{
+		byte menu = 1;
+
+		for ( ; true ; )
+		{
+			Console.Write("\n\n\tCalculator FOR - IF ELSE" +
+											"\n\tChoose a mathematical operation: " + 
+											"\n\t0 - Exit;" + 
+											"\n\t1 - Addition;" + 
+											"\n\t2 - Subtraction;" + 
+											"\n\t3 - Multiplication;" +
+											"\n\t4 - Division." + 
+											"\n\tOption: ");
+			
+			menu = byte.Parse(Console.ReadLine());
+
+			if(menu == 0)
+				break;
+			
+			Console.Write("\n\tValue 1: ");
+			double v1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+			Console.Write("\n\tValue 2: ");
+			double v2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+			if (menu == 1)
+				Console.Write("\n\tAddition is {0}", (v1 + v2).ToString("F2", CultureInfo.InvariantCulture));
+			else if (menu == 2)
+				Console.Write("\n\tSubtraction is {0}", (v1 - v2).ToString("F2", CultureInfo.InvariantCulture));
+			else if (menu == 3)
+				Console.Write("\n\tMultiplication is {0}", (v1 * v2).ToString("F2", CultureInfo.InvariantCulture));
+			else if (menu == 4)
+				Console.Write("\n\tDivision is {0}", (v1 / v2).ToString("F2", CultureInfo.InvariantCulture));
+			else
+				Console.Write("\n\tErro!!!");
+		}
+
+  }
+}
