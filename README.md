@@ -1,14 +1,16 @@
-# PROJECTS
+# DEV-CODE-README
 
-# CONTRIBUTIONS
+## PROJECTS
 
-# PROBLEMS
+## CONTRIBUTIONS
 
+## PROBLEMS
+* Calculadora ([C#](https://github.com/C0G4/dev-code/tree/master/problems/csharp/calculator))
 
-# ESTUDANDO
+## STUDYING
 
-## ESTRUTURA DE DADOS
+### DATA STRUCTURE
 
-* Busca (C, C++, JAVA, Python, Javascript)
+* Search (C, C#, C++, JAVA, Python, Javascript)
 
-## ALGORITMOS 
+### ALGORITHMS 
