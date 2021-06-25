@@ -4,7 +4,6 @@
 
 # PROBLEMS
 
-### Google Code Jam
 
 # ESTUDANDO
 
